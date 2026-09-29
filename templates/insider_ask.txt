@@ -1,0 +1,12 @@
+Subject: Quick question about ${company}
+
+Hi ${first_name},
+
+${hook}
+
+I'm ${goal} and ${company} is at the top of my list. Since you're ${their_role_phrase}, I'd really value 15 minutes of your perspective on the team and culture - and, if it feels like a fit after we talk, any advice on the best way in.
+
+Would you be open to a quick call in the next couple of weeks? Happy to work around your schedule.
+
+Thanks so much,
+${my_name}

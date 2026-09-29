@@ -1,0 +1,12 @@
+Subject: Any friends at ${company}?
+
+Hi ${first_name},
+
+${hook}
+
+I'm ${goal} and I'm trying to get a warm intro into ${company}. Given ${bridge_reason}, I figured you might know someone there - ideally on the ${function_phrase} side.
+
+If anyone comes to mind, would you be open to connecting us? Totally fine if not.
+
+Thanks,
+${my_name}

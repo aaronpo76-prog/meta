@@ -1,0 +1,22 @@
+{
+  "_comment": "members = same employer (subsidiaries, brands, old names). related = sister companies that make good bridges. Add your own groups freely.",
+  "groups": [
+    {"name": "Meta", "members": ["Facebook", "Instagram", "WhatsApp", "Messenger", "Threads", "Reality Labs", "Meta Reality Labs", "Oculus", "Meta Platforms"]},
+    {"name": "Google", "members": ["Alphabet", "Google DeepMind", "DeepMind", "YouTube", "Google Cloud", "Fitbit", "Google Nest"], "related": ["Waymo", "Verily", "Wing", "X, the moonshot factory", "Calico", "Isomorphic Labs", "GV", "CapitalG"]},
+    {"name": "Alphabet", "members": ["Google", "Google DeepMind", "DeepMind", "YouTube", "Waymo", "Verily", "Wing", "Calico", "Isomorphic Labs"]},
+    {"name": "Block", "members": ["Square", "Cash App", "Afterpay", "TIDAL", "Spiral", "TBD", "Proto"]},
+    {"name": "Square", "members": ["Block"], "related": ["Cash App", "Afterpay", "TIDAL", "Spiral"]},
+    {"name": "Cash App", "members": ["Block"], "related": ["Square", "Afterpay", "TIDAL"]},
+    {"name": "PayPal", "members": ["Venmo", "Braintree", "Honey", "Xoom", "PayPal Holdings"]},
+    {"name": "Venmo", "members": ["PayPal"], "related": ["Braintree", "Honey"]},
+    {"name": "Amazon", "members": ["Amazon Web Services", "Amazon Web Services (AWS)", "AWS", "Prime Video & Amazon MGM Studios", "Amazon MGM Studios", "Prime Video", "Audible", "Twitch", "Ring", "Zappos", "Whole Foods Market", "Zoox", "One Medical"]},
+    {"name": "Microsoft", "members": ["Microsoft AI", "LinkedIn", "GitHub", "Xbox", "Activision Blizzard", "Mojang Studios"]},
+    {"name": "Salesforce", "members": ["Slack", "Tableau", "MuleSoft", "Heroku"]},
+    {"name": "Intuit", "members": ["Intuit Mailchimp", "Mailchimp", "Credit Karma", "TurboTax", "QuickBooks"]},
+    {"name": "Uber", "members": ["Uber Eats", "Postmates", "Uber Freight"]},
+    {"name": "The Walt Disney Company", "members": ["Disney", "Walt Disney Imagineering", "Pixar", "Pixar Animation Studios", "Marvel Studios", "Lucasfilm", "ESPN", "Hulu", "ABC"]},
+    {"name": "Apple", "members": ["Beats by Dre", "Apple Retail"]},
+    {"name": "OpenAI", "members": ["io"], "related": ["Microsoft AI"]},
+    {"name": "Anthropic", "members": []}
+  ]
+}

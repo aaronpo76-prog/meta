@@ -1,0 +1,1 @@
+Hi ${target_first} - ${mutual_first} ${connector_name_last_initial} suggested I reach out. I'm ${my_headline_short}, ${goal_short}, and would love to connect and learn about your work at ${company}.

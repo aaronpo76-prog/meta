@@ -1,0 +1,14 @@
+Notes:
+"When exporting your connection data, you may notice that some of the email addresses are missing."
+
+First Name,Last Name,URL,Email Address,Company,Position,Connected On
+Pat,Sample,https://www.linkedin.com/in/pat-sample,pat@example.com,Square,"Head of Design",12 Mar 2012
+Riley,Recruiter,https://www.linkedin.com/in/riley-r,,Block,Creative Talent Partner,01 Jun 2020
+Casey,Placeholder,https://www.linkedin.com/in/casey-placeholder,,Acme Studio,Brand Director,15 Jan 2016
+Morgan,Metalab,https://www.linkedin.com/in/morgan-m,,Metalab,Designer,02 Feb 2019
+Taylor,Sister,https://www.linkedin.com/in/taylor-s,,Afterpay,Product Designer,10 Oct 2018
+Jamie,Alum,https://www.linkedin.com/in/jamie-a,,Freelance,"Designer, ex-Square",05 May 2015
+Drew,Newbie,https://www.linkedin.com/in/drew-n,,Cash App,Senior Brand Designer,01 Sep 2026
+Sam,Blockparty,https://www.linkedin.com/in/sam-b,,Block Party Events,Producer,01 Jan 2021
+José,Núñez,https://www.linkedin.com/in/jose-n,,Acme Studio,Engineer,01 Jan 2022
+,,,,,,05 Jul 2023

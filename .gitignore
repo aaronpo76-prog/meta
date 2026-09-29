@@ -1,0 +1,10 @@
+# Personal network data -- never commit (this repo is public).
+data/*
+!data/README.md
+!data/second_degree.example.csv
+!data/notes.example.csv
+config/profile.json
+reports/*
+!reports/.gitkeep
+__pycache__/
+*.pyc

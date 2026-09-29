@@ -1,0 +1,1 @@
+${target_first} - I'd like to introduce ${my_name}, ${my_headline}. ${my_first} is ${goal} and is especially interested in ${company}. Would you be open to a short chat? ${my_first}'s LinkedIn: [add your profile URL]

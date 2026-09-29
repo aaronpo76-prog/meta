@@ -1,0 +1,15 @@
+Subject: Would you be up for an intro to ${target_first}?
+
+Hi ${first_name},
+
+${hook}
+
+I'm ${goal} and I noticed you're connected with ${target_name} (${target_title}${target_company_phrase}). Would you be comfortable making a quick intro? Only if you know them well enough - no pressure at all if not.
+
+To make it easy, I've pasted a short blurb below you can forward as-is.
+
+Thank you!
+${my_name}
+
+---
+${forwardable}
