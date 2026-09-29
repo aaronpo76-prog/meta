@@ -92,7 +92,7 @@ def score_insider(c: Connection, match: str, profile: dict, notes: dict, today: 
         score += 8
         reasons.insert(0, "recruiting / talent")
     if funcs:
-        score += 6
+        score += 6 + 2 * (len(funcs) - 1)
         reasons.insert(0, f"same function ({', '.join(funcs)})")
     if match == NAME_MATCH:
         score -= 5

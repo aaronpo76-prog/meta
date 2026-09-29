@@ -3,6 +3,7 @@
 from pathlib import Path
 from string import Template
 
+from .match import normalize_company
 from .score import IntroPath, Scored
 
 LINKEDIN_NOTE_LIMIT = 300
@@ -19,7 +20,8 @@ def hook(s: Scored) -> str:
         return s.note if s.note.endswith((".", "!", "?")) else s.note + "."
     parts = []
     if s.shared:
-        parts.append(f"It's been a while since our {s.shared} days - I hope things are going well at {company}.")
+        what = "the team" if normalize_company(s.shared) == normalize_company(company) else company
+        parts.append(f"Having spent time at {s.shared} myself, I've enjoyed following what {what} has been shipping.")
     if s.years >= 8 and c.connected_on:
         parts.append(f"We've been connected since {c.connected_on.year}, which is hard to believe.")
     elif s.years >= 2 and c.connected_on and not parts:
@@ -42,7 +44,7 @@ def _me(profile: dict) -> dict:
         "my_name": profile["name"],
         "my_first": profile["name"].split()[0],
         "my_headline": headline,
-        "my_headline_short": headline.split(",")[0].split("|")[0].strip(),
+        "my_headline_short": profile.get("headline_short") or headline.split(",")[0].split("|")[0].strip(),
         "goal": goal,
         "goal_short": goal.split(",")[0].strip(),
     }

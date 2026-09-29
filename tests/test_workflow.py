@@ -82,7 +82,7 @@ class WorkflowTests(unittest.TestCase):
     def test_messages_personalized(self):
         md = render_markdown(_run(second=FX / "second_degree_sample.csv"), ROOT / "templates", top=5)
         self.assertIn("We shipped the 2019 rebrand together.", md)
-        self.assertIn("since our Acme Studio days", md)  # shared employer for Casey
+        self.assertIn("Having spent time at Acme Studio myself, I've enjoyed following what the team", md)  # shared employer for Casey
         self.assertIn("Alex Rivera", md)
         self.assertNotIn("${", md)
         for block in md.split("LinkedIn connect note")[1:]:

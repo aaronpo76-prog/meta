@@ -11,7 +11,7 @@ Only the Python 3.10+ standard library. No API keys, no scraping.
 ## Setup (once)
 
 1. Export your connections from LinkedIn (Settings → Data privacy → Get a copy of your data → **Connections**) and save the file as `data/Connections.csv`.
-2. `cp config/profile.example.json config/profile.json` and fill it in. `functions` are keywords for the kind of work you want (e.g. `brand`, `design`). `past_companies` turns on shared-employer hooks.
+2. `cp config/profile.example.json config/profile.json` and fill it in. `functions` are keywords for the kind of work you want (e.g. `brand`, `design`). `past_companies` turns on shared-employer hooks. `headline_short` is the version used in 300-character connect notes.
 3. Optional: add `data/notes.csv` with one line of real shared history per person ("We shipped the 2019 rebrand together").
 
 `data/`, `reports/` and `config/profile.json` are gitignored. **This repo is public, so keep them out of git.**
